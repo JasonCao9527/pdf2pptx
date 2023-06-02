@@ -1,7 +1,10 @@
 # pdf2pptx-exe
 English version|[中文版本](readme-zh-cn.md)
 
-This project is <mark> mainly for personal archiving and use</mark>.
+This project <mark>is mainly used for personal archiving and use</mark>, followed by practice, using ```pyinstaller``` to package python scripts into executable exe files.
+
+In addition, many people have made many interesting projects for pdf2pptx. For example, kevinmcguinness made pdf2pptx a python callable software package [[pdf2pptx]](https://github.com/kevinmcguinness/pdf2pptx),
+If you want to be more convenient and fast, you can check out this package.
 
 Modify according to the source code of phasedOut in [[pdf2pptx project]](https://github.com/phasedOut/pdf2pptx),
 It is more suitable for converting presentations made with ```LaTeX Beamer``` into pptx files for playback.
@@ -10,13 +13,13 @@ This file is based on the source code of phasedOut for secondary development, an
 It is more convenient to use when the number of files is small.
 
 The principle is to convert each page of the PDF into a picture, and then insert each picture as a background image into each page of the ppt. This works with ```LaTeX Beamer```
-The ```alert``` or ```\pause``` can fake some sequential playback effects.
+The ```alert``` or ```\pause``` can fake some playback effects.
 
 <mark>There is no Release for this project</mark>, if you need to use it, you can clone it yourself
 
 ## apply to
 * Convert presentations made using ```LaTeX Beamer``` into pptx files for playback
-* Or convert other 16:9 PDF files into pptx files (other ratios have not been tested)
+* Or convert other 16:9 PDF files per page into pptx files (other ratios have not been tested)
 
 
 ## how to use
@@ -37,7 +40,8 @@ For the original project:
 * Solved the error reported due to the deletion of the ```MutableMapping class``` in ```Python 3.10``` and later versions
 * Solved the error reporting problem of the ```pptx library``` used after the source code is packaged into an exe file
 
- :warning: 
+
+:warning: 
 <br>Please note that the English translation is done by Google Translate, please refer to the Chinese version.
 <br>请注意，英文翻译是由谷歌翻译进行的，请以中文版为准。
 
