@@ -32,7 +32,7 @@ After entering the "dist" folder:
 _*Note: <mark>Do not delete "default.pptx"</mark>_, this is a template file,
 If this file is deleted, the conversion script will not execute.
 
-## Deletion Description
+## Description
 For the original project:
 * Deleted the code ```dt_name = datetime.datetime.now()``` that inserts the generated time into the generated pptx file, making the function more pure
 * Adjusted the insertion position of the original ```slide.shapes.add_picture```, now it will not "deviate"
