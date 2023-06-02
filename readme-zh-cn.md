@@ -3,6 +3,8 @@
 
 本项目<mark>主要是用于本人存档和使用</mark>，其次就是实践一下，使用```pyinstaller```将python脚本打包成可执行的exe文件。
 
+:warning:本项目需要在有```python3```的环境中运行。
+
 另外，已经有很多人针对pdf2pptx这个做出了很多有意思的项目。比如kevinmcguinness把pdf2pptx做成了python的可调用的软件包[[pdf2pptx]](https://github.com/kevinmcguinness/pdf2pptx),
 如果想要更方便快捷可以查看这个软件包。
 
