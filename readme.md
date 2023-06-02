@@ -3,6 +3,8 @@ English version|[中文版本](readme-zh-cn.md)
 
 This project <mark>is mainly used for personal archiving and use</mark>, followed by practice, using ```pyinstaller``` to package python scripts into executable exe files.
 
+:warning: This project needs to run in an environment with ```python3```.
+
 In addition, many people have made many interesting projects for pdf2pptx. For example, kevinmcguinness made pdf2pptx a python callable software package [[pdf2pptx]](https://github.com/kevinmcguinness/pdf2pptx),
 If you want to be more convenient and fast, you can check out this package.
 
