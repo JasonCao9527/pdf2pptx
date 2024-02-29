@@ -1,4 +1,4 @@
-# pdf2pptx-exe
+# pdf2pptx
 English version|[中文版本](readme-zh-cn.md)
 
 This project <mark>is mainly used for personal archiving and use</mark>, followed by practice, using ```pyinstaller``` to package python scripts into executable exe files.
