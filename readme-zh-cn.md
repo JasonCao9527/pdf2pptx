@@ -1,4 +1,4 @@
-# pdf2pptx-exe
+# pdf2pptx
 [English version](readme.md)|中文版本
 
 本项目<mark>主要是用于本人存档和使用</mark>，其次就是实践一下，使用```pyinstaller```将python脚本打包成可执行的exe文件。
